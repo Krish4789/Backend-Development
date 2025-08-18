@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Form</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <form action="/todos" id = "todoform" method="post">
+        <label for="todo">Enter Todo:</label>
+        <input type="text" id="todo" name="todo" required>
+        <button type="submit">Add Todo</button>
+    </form>
+
+    <!-- <script src="index.js"></script> -->
+
+    <script src = "./axios.js"></script>
+</body>
+</html>
